@@ -630,10 +630,6 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
    </license>
 
-   <requires>
-      <import plugin="org.apache.commons.collections"/>
-   </requires>
-
    <plugin
          id="com.smb-tec.neo4j.community"
          download-size="0"
@@ -641,4 +637,24 @@ copy of the Program in return for a fee.
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="org.apache.commons.vfs"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jexl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 </feature>
