@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="com.smb-tec.neo4j.feature" version="0.0.0">
+      <category name="com.smb-tec.neo4j"/>
+   </feature>
+   <category-def name="com.smb-tec.neo4j" label="Neo4j"/>
+   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/" enabled="true" />
+</site>
