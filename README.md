@@ -13,7 +13,9 @@ it will produce `repository/target/com.smb-tec.neo4j.repository-<VERSION>.jar` t
 
 ### Hosted p2 Repository
 
-[https://dl.bintray.com/smbgmbh/eclipse/neo4j/2.3.7/](https://dl.bintray.com/smbgmbh/eclipse/neo4j/2.3.7/)
+Latest Release: [https://dl.bintray.com/smbgmbh/eclipse/neo4j/2.3.8/](https://dl.bintray.com/smbgmbh/eclipse/neo4j/2.3.8/)
+
+Composite Repository: [https://dl.bintray.com/smbgmbh/eclipse/neo4j/](https://dl.bintray.com/smbgmbh/eclipse/neo4j/)
 
 ### Searching for Neo4j OSGi bundle?
 

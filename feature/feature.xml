@@ -2,7 +2,7 @@
 <feature
       id="com.smb-tec.neo4j.feature"
       label="Neo4j Community"
-      version="2.3.7.qualifier">
+      version="2.3.8.qualifier">
 
    <description>
       Neo4j Community
