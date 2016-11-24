@@ -2,7 +2,7 @@
 <feature
       id="com.smb-tec.neo4j.feature"
       label="Neo4j Community"
-      version="2.3.7">
+      version="2.3.7.qualifier">
 
    <description>
       Neo4j Community
@@ -630,6 +630,11 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
    </license>
 
+   <requires>
+      <import plugin="org.apache.commons.lang" version="2.6.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.logging" version="1.1.1" match="greaterOrEqual"/>
+   </requires>
+
    <plugin
          id="com.smb-tec.neo4j.community"
          download-size="0"
@@ -638,23 +643,24 @@ copy of the Program in return for a fee.
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.vfs"
+         id="org.apache.commons.lang3.ebr"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.logging"
+         id="org.apache.commons.configuration.ebr"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.commons.jexl"
+         id="org.apache.commons.digester.ebr"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
 </feature>
