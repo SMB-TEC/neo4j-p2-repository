@@ -1,7 +1,7 @@
 ## Neo4j Eclipse p2 Repository
 
 
-### Neo4j Version: 2.3.7 Community
+### Neo4j Version: 2.3.8 Community
 
 ### Build
 
